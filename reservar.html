@@ -13,14 +13,11 @@ input[type="date"],select,input[type="number"]{width:100%;padding:10px;margin-bo
 select{background-color:#f39c12;color:white;font-size:16px;}
 input[type="number"]{background-color:#f39c12;color:white;}
 </style>
-<script>
-function confirmarReservacion(event){event.preventDefault();alert('¡Mesa Reservada con Éxito en la Taquería!');}
-</script>
 </head>
 <body>
 <div>
 <h2>Reservación Taquería</h2>
-<form onsubmit="confirmarReservacion(event)">
+<form>
 <label for="fecha">Fecha:</label>
 <input type="date" id="fecha" name="fecha" required><br>
 <label for="horario">Horario:</label>
